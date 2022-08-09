@@ -1,0 +1,40 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sections {
+    background-color: silver;
+    width: 60%;
+    height:20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+form button {
+    width: 10%;
+    align-self: center;
+    background-color: blue;
+    color:white;
+}
+
+h1, h2, h3 {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+}

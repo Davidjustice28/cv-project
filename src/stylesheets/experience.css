@@ -1,0 +1,10 @@
+#jobdate-range {
+        display: flex;
+        justify-content: center;
+}
+
+.job-subsections {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+}

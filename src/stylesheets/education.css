@@ -1,0 +1,11 @@
+#schooldates {
+    display: flex;
+    justify-content: center;
+    gap:2.5%
+}
+
+.school-subsection {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,27 @@
+
+.results-dropdown {
+    border: 2px solid black;
+    width:60%;
+    background-color: silver;
+    font-weight: bold;
+}
+
+#contact-results {
+    display:none;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+}
+
+#contact-results p {
+    border: 1px solid green;
+    text-align: center;
+    width:60%;
+}
+
+#contact-results button {
+    background-color: red;
+    color: white;
+    height:25%;
+}
+
