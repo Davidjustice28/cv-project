@@ -14,7 +14,7 @@ class ExperienceSection extends Component {
                     <label htmlFor='company'>Company</label>
                     <input type='text' id='company'></input>
                     <label htmlFor='position'>Position</label>
-                    <input type='text' id='postion'></input>
+                    <input type='text' id='position'></input>
                     <div id = 'jobdate-range'>
                         <div className='job-subsections'>
                             <label htmlFor='job-start'>Start Date</label>
@@ -25,7 +25,7 @@ class ExperienceSection extends Component {
                             <input type='date' id='job-end'></input>
                         </div>
                     </div>
-                    <button>Submit</button>
+                    <button onClick={this.props.func} type = 'button'>Submit</button>
                 </form>
             </div>
 

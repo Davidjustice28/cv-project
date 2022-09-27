@@ -8,3 +8,31 @@
     width: 25%;
     justify-content: space-evenly;
 }
+
+#experience-results {
+    display: none;
+    align-items: center;
+    border: 2px solid black;
+    width:60%;
+    background-color: silver;
+    font-weight: bold;
+}
+
+#exp-button {
+    background-color: blue;
+    color:white;
+}
+
+.job-div {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    align-items: center;
+}
+
+.job-div button {
+    background-color: red;
+    height: 80%;
+    color:white
+}

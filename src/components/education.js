@@ -28,7 +28,7 @@ class EducationSection extends Component {
                             <input type='date' id='school-end'></input>
                         </div>
                     </div>
-                    <button type='button'>Submit</button>
+                    <button onClick = {this.props.func} type='button' >Submit</button>
                 </form>
     
             </div>

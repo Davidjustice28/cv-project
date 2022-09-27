@@ -9,3 +9,25 @@
     width: 25%;
     justify-content: space-evenly;
 }
+
+#education-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.results-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#education-results .results-div {
+    border:2px solid green;
+}
+
